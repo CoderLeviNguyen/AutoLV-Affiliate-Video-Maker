@@ -1,0 +1,35 @@
+# Secrets
+.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+frontend/dist/
+renderer/out/
+
+# Runtime media
+backend/temp_processing/
+backend/static/videos/
+backend/static/audios/
+backend/uploads/
+*.mp4
+*.mp3
+
+# Logs
+*.log
+backend/logs/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
