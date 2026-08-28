@@ -1,0 +1,16 @@
+{
+  "schema": "autolv.module/v1",
+  "id": "affiliate-video-maker",
+  "name": "AutoLV Affiliate Video Maker",
+  "category": "application",
+  "runtime": ["python", "fastapi", "node", "remotion"],
+  "auth": {
+    "role": "consumer",
+    "provider": "autolv-accounts"
+  },
+  "dependencies": ["accounts", "social"],
+  "planned_dependencies": ["voice", "browser"],
+  "capabilities": ["affiliate-script", "media-processing", "video-render", "subtitles", "cta-layouts"],
+  "interfaces": ["rest", "mcp", "application"],
+  "status": "active"
+}
